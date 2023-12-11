@@ -1,0 +1,7 @@
+# docker-compose.yaml
+version: '3.8'
+services:
+  app:
+    image: <your-dockerhub-username>/<your-repo-name>:latest
+    ports:
+      - 8080:8080
